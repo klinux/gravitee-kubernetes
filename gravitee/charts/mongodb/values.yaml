@@ -230,7 +230,7 @@ persistence:
   # storageClass: "-"
   accessModes:
     - ReadWriteOnce
-  size: 8Gi
+  size: 30Gi
   annotations: {}
 
 # Expose mongodb via ingress. This is possible if using nginx-ingress
